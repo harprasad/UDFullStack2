@@ -45,13 +45,14 @@
             </div>
             <div class="col-sm-9">
                 <h6><small>MAP</small></h6>
+                <div id='errors' data-bind="text:errortext, visible:iferror()" style="color:red"> </div>
                 <div id='map'></div>
             </div>
         </div>
     </div>
 </body>
 <script type="text/javascript" src="js/app.js"></script>
-<script src='js/gmaps.js'></script>
+<script src='js/api.js'></script>
 
 <script src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAD0_T4Q1n6On6mJj81Nb0jbtbUwGOF_1E&v=3&libraries=places&callback=initMap"></script>
 </html>
