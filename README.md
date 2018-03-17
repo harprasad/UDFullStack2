@@ -5,10 +5,11 @@ To clone this repository use the following command
 $ git clone https://github.com/harprasad/UDFullStack2.git
 ```
 ## INSTALL NODE ##
+It's possible to open the index.html file directly in browser but I would recommend to use a web server. To do so you can use nodejs or any other third party tools.
 Install nodejs from ***https://nodejs.org/en/***
 
 ## RUN ##
-open command prompt or terminal then cd to the project directory and run the following command 
+open command prompt or terminal then "cd" to the project directory and run the following command 
 ```
 $ http-server
 ```
