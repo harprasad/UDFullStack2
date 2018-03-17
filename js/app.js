@@ -1,3 +1,4 @@
+'use strict';
 /**
 * @description Represents a location
 * @constructor
@@ -8,8 +9,8 @@ var Location = function (data) {
     this.name = ko.observable(data.name);
     this.marker = data.marker;
     this.onItemClicked = function () {
-        AnimateMarker(self.marker);
-        CreateInfoWindow(self.marker);
+        animateMarker(self.marker);
+        createInfoWindow(self.marker);
     };
 };
 
@@ -21,14 +22,14 @@ var ViewModel = function () {
     this.filteredList = ko.computed(function () {
         return ko.utils.arrayFilter(self.locationList(), function (location) {
             if (self.filtertext() === "") {
-                ToggleMarker(location.marker, true);
+                toggleMarker(location.marker, true);
                 return location;
             } else {
-                if (location.name().includes(self.filtertext())) {
-                    ToggleMarker(location.marker, true);
+                if (location.name().toLowerCase().includes(self.filtertext().toLowerCase())) {
+                    toggleMarker(location.marker, true);
                     return location;
                 } else {
-                    ToggleMarker(location.marker, false);
+                    toggleMarker(location.marker, false);
                 }
             }
         });

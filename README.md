@@ -4,9 +4,16 @@ To clone this repository use the following command
 ```
 $ git clone https://github.com/harprasad/UDFullStack2.git
 ```
+## INSTALL NODE ##
+Install nodejs from ***https://nodejs.org/en/***
 
 ## RUN ##
-Host your directory using http-sever or any other third party tool
+open command prompt or terminal then cd to the project directory and run the following command 
+```
+$ http-server
+```
+Visit 127.0.0.1:8080 or localhost:8080 using your browser.
+
 
 ## FEATURES ##
 This application has the follwoing features.
