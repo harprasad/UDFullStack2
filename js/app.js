@@ -1,4 +1,3 @@
-'use strict';
 /**
 * @description Represents a location
 * @constructor
