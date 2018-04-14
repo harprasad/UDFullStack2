@@ -3,8 +3,8 @@ var map;
 var mapcetner;
 var service;
 //foursquare API credentials
-var foursquare_id = 'XIKQL2ZXQN0VHJJ0NY4PF3GQ4BKTXFK5OCELBIR3TFWSUUI3';
-var foursquare_sec = 'G55D0TZVQFHHNEIXPUEG01ROMSXUQHHCT55F54OVJTW4Y1V1';
+var foursquare_id = 'W35PBHCZGBQP1GE1DVBVGHHCA00BPYKMVCKVCJ5BMZETFOJ3';
+var foursquare_sec = 'NFSQQZSHTBQ230KCBYIHDSQMBD4RYDHF1MCJR23A1ACAGE4P';
 var infowindow;
 var logourl = 'images/foursquarelogo.png';
 
